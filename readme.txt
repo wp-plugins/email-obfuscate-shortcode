@@ -84,9 +84,6 @@ This protection has been proven very effective. However it is theoretically poss
 2. Obfuscated JavaScript code as rendered to page
 
 == Changelog ==
-= 1.1 =
-* Changed Plugin URI to the plugin page at Wordpress.org
-
 = 1.0 =
 * Initial release
 
@@ -95,6 +92,8 @@ This protection has been proven very effective. However it is theoretically poss
 Initial release
 
 == TODO ==
+* Better error handling when mbstring isn't present.
+
 * Better noscript_fallback. Enable people without JavaScript to see the email address using technique to inject empty spans via css.
 (Example: bob@<span style="display:none">randomtext</span>company.com
 Reference: kolla på http://wordpress.org/extend/plugins/obfuscate-email/other_notes/
