@@ -3,7 +3,7 @@ Contributors: khromov
 Tags: email, obfuscator, email obfuscator, spam stopper
 Requires at least: 3.0
 Tested up to: 3.5
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPL2
 
 Obfuscate your email address or other sensitive information with a shortcode to prevent spam and automated harvesting of data.

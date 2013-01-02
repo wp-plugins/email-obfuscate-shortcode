@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name: Email Obfuscate Shortcode
-Plugin URI: http://khromov.se
+Plugin URI: http://wordpress.org/extend/plugins/email-obfuscate-shortcode
 Description: No more spam! Example usage: [email-obfuscate email="bob@company.com"] -- See plugin site for more examples.
-Version: 1.0
+Version: 1.1
 Author: khromov
 Author URI: http://khromov.wordpress.com
 License: GPL2
