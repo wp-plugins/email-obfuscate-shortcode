@@ -105,7 +105,7 @@ class EOS
             $ret = $email;
             
             //Encode as htmlentities
-            if($use_noscript_fallback)
+            if($use_htmlentities)
                 $ret = EOS::html_entities_all($ret);
             
             //Wrap in mailto: link
@@ -145,9 +145,15 @@ class EOS
     {
         $text = mb_convert_encoding($text , 'UTF-32', 'UTF-8');
         $t = unpack("N*", $text);
-        $t = array_map(function($n) { return "&#$n;"; }, $t);
+        $t = array_map(array('EOS', 'html_entities_closure_wrap'), $t);
         
         return implode("", $t);
+    }
+    
+    //For PHP <5.3 support.
+    static function html_entities_closure_wrap($n)
+    {
+    	return "&#$n;";
     }
     
     /**
