@@ -85,7 +85,7 @@ This protection has been proven very effective. However it is theoretically poss
 
 == Changelog ==
 = 1.3.1 =
-Fixed issue with additional space being added after email address. (Thanks to omdaddi)
+* Fixed issue with additional space being added after email address. (Thanks to omdaddi)
 
 = 1.3 =
 * Fixed compatibility issue with PHP 5.2 (5.3 is still recommended)
