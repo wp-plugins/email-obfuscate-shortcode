@@ -89,7 +89,7 @@ This protection has been proven very effective. However it is theoretically poss
 
 == Changelog ==
 = 1.3.2 =
-* Added support for <a> title attribute via the tag_title="title" shortcode attribute.
+* Added support for a tag title attribute via the tag_title="title" shortcode attribute.
 
 = 1.3.1 =
 * Fixed issue with additional space being added after email address. (Thanks to omdaddi)
