@@ -3,7 +3,7 @@ Contributors: khromov
 Tags: email, obfuscator, email obfuscator, spam stopper
 Requires at least: 3.0
 Tested up to: 3.7
-Stable tag: 1.3.2
+Stable tag: 1.3.3
 License: GPL2
 
 Obfuscate your email address or other sensitive information with a shortcode to prevent spam and automated harvesting of data.
@@ -88,6 +88,9 @@ This protection has been proven very effective. However it is theoretically poss
 2. Obfuscated JavaScript code as rendered to page
 
 == Changelog ==
+= 1.3.3 =
+Fix update issue
+
 = 1.3.2 =
 * Added support for a tag title attribute via the tag_title="title" shortcode attribute.
 
