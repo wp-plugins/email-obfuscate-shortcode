@@ -89,7 +89,7 @@ This protection has been proven very effective. However it is theoretically poss
 
 == Changelog ==
 = 1.3.3 =
-Fix update issue
+* Fix update issue
 
 = 1.3.2 =
 * Added support for a tag title attribute via the tag_title="title" shortcode attribute.
