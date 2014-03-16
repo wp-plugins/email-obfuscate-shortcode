@@ -3,13 +3,15 @@ Contributors: khromov
 Tags: email, obfuscator, email obfuscator, spam stopper
 Requires at least: 3.0
 Tested up to: 3.8.1
-Stable tag: 1.3.3
+Stable tag: 2.0
 License: GPL2
 
 Obfuscate your email address or other sensitive information with a shortcode to prevent spam and automated harvesting of data.
 
 == Description ==
 Obfuscate your email address or other sensitive information with a shortcode to prevent harvesting of your data.
+
+Version 2.0 includes an improved way of displaying the email without relying on JavaScript document.write();
 
 **Usage**
 
@@ -88,6 +90,9 @@ This protection has been proven very effective. However it is theoretically poss
 2. Obfuscated JavaScript code as rendered to page
 
 == Changelog ==
+= 2.0 =
+* Improved way of displaying emails, using getElementByID and innerHTML(). This plugin is no longer dependent on document.write and can now be used when data is displayed via AJAX. Compatibility with major browsers should be unaffected.
+
 = 1.3.3 =
 * Fix update issue
 
