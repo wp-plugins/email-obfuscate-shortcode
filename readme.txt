@@ -2,7 +2,7 @@
 Contributors: khromov
 Tags: email, obfuscator, email obfuscator, spam stopper
 Requires at least: 3.0
-Tested up to: 3.9
+Tested up to: 4.3
 Stable tag: 2.0
 License: GPL2
 
